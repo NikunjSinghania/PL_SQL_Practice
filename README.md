@@ -1,0 +1,7 @@
+# PL_SQL_Practice
+Just PL-SQL Practice
+
+#TRIGGER
+#PROCEDURE
+#FUNCTION
+#SELECT
