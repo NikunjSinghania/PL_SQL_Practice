@@ -1,0 +1,14 @@
+DECLARE
+    CEL NUMBER(5,2);
+    FAH NUMBER(5,2);
+BEGIN
+    
+    CEL := 32;
+    FAH := (CEL * 9/5)+32;
+    DBMS_OUTPUT.PUT_LINE(CEL || ' CELSIUS TO FAHRENHEIT : '|| FAH);
+    
+    FAH := 200;
+    CEL := (FAH - 32)*5/9;
+    DBMS_OUTPUT.PUT_LINE(FAH || ' FAHRENHEIT TO CELSIUS : ' || CEL);
+END;
+/

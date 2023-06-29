@@ -1,0 +1,13 @@
+DECLARE
+    NUM1 NUMBER := 4;
+BEGIN
+    LOOP
+        NUM1 := NUM1 + 1;
+        DBMS_OUTPUT.PUT_LINE(NUM1);
+        IF NUM1 = 10 THEN
+            EXIT;
+        END IF;
+    END LOOP;
+    DBMS_OUTPUT.PUT_LINE('COMPLETED');
+END;
+/

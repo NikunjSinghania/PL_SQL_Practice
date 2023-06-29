@@ -1,0 +1,9 @@
+DECLARE
+    NUM1 NUMBER := 1;
+BEGIN
+   WHILE NUM1 <= 10 LOOP
+        DBMS_OUTPUT.PUT_LINE('10 * '||NUM1||' = '||NUM1*10);
+        NUM1 := NUM1 + 1;
+    END LOOP;
+END;
+/
